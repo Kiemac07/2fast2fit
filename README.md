@@ -1,19 +1,15 @@
-# 2Fast2Fit 1-1s — Redesigned Website
+# 2Fast2Fit website
 
-Open `index.html` with Live Server.
+Open `index.html` in a browser or use VS Code Live Server. It is framework-free and deployable to any standard static host.
 
-## Replace media
-The site currently uses visible media placeholders. Replace them later with real photos/videos from Kyren.
+## Add real media
 
-Official logo: `assets/images/2fast2fit-logo.png`
+Place supplied photo/video files in `assets/images/` and `assets/videos/`, then replace each matching `.media` placeholder with an `<img>` or `<video>` element. Placeholder labels identify the exact requested media.
 
-## Pages
-Home, About, 1-to-1 Boxing, Personal Training, Services, Gallery, Contact.
+The official supplied logo is already at `assets/brand/2fast2fit-logo.png` and is used in header/footer/site icon metadata.
 
-## Before launch
-- Add real photos/videos.
-- Add years of experience and boxing record.
-- Add email if desired.
-- Confirm Kids/Teen Boxing is an active service.
-- Add the real Facebook URL.
-- Connect the enquiry form to a form/email service.
+## Details to complete
+
+- Replace `[INSERT_FACEBOOK_URL]` in `assets/site.js` once available.
+- Connect the contact form to the preferred provider / backend.
+- Add email, boxing-record and experience details only when confirmed.
